@@ -27,8 +27,8 @@ The transformer distilBERT library lets users use the same tokenization techniqu
 I have used a pretrained model, `distilbert-base-uncased`, which is the distilBERT version of `bert-base-uncased` which in turn is the BERT model with all its weights, obtained from pretraining the model on a general English corpus (e.g. Wikipedia). 
 
 ## Hyperparameters
-**Input sequence length:** The lenght of the input text sequence was truncated to the maximum length supported by the model, i.e., 512
-**Padding:** Padding was used after tokenization to ensure all input sequence were of the same length
+**Input sequence length:** The lenght of the input text sequence was truncated to the maximum length supported by the model, i.e., 512\n
+**Padding:** Padding was used after tokenization to ensure all input sequence were of the same length\n
 **Attention mask:** Mask was used to mask the padded parts
 
 ## Output layer
