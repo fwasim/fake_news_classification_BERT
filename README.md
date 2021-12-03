@@ -21,7 +21,7 @@ For preprocessing, I have used the script provided by [the winning team](https:/
 I have used the distilBERT model found [here](https://huggingface.co/transformers/model_doc/distilbert.html). This is a lightweight version of the original BERT [model](https://github.com/google-research/bert) that is claimed to preserve 97% accuracy of the original BERT model. 
 
 ## Tokenization
-The transformer distilBERT library lets users use the same tokenization technique that was originally mentioned in the paper that first proposed BERT or choose their own. I have stuck to the one originally proposed with BERT, i.e., WordPiece.
+The transformer distilBERT library lets users use the same tokenization technique that was originally mentioned in the paper that first proposed BERT, or choose their own. I have stuck to the one originally proposed with BERT, i.e., WordPiece.
 
 ## Pretraining
 I have used a pretrained model, `distilbert-base-uncased`, which is the distilBERT version of `bert-base-uncased` which in turn is the BERT model with all its weights, obtained from pretraining the model on a general English corpus (e.g. Wikipedia). 
